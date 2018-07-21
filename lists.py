@@ -1,3 +1,4 @@
+#sequences in python
 #lists hold different object types
 my_lists = [1,2,3] # my_list. 123
 
