@@ -96,11 +96,56 @@ for t in tup:
     #results
     1
     2
-    3
+    3 
     4
     5
 #Advanced, tuple unpacking
 #We gonna create a list of tuples, create some tuple pairs in a list
+l = [(2,4), (6,8), (10,12)]
+for tup in l:
+    print tup
+    #results 
+    (2,4)
+    (6,8)
+    (10,12)
+
+    for (t1,t2) in l:
+        print t1
+        #results
+        2
+        6
+        10
+    
+    for (t1,t2) in l:
+        print t1- t2
+        #results
+        -2
+        -2
+        -2
+    #working through a dictionary
+    d = {'k1:1', 'k2:2', 'k3:3'}
+    for item in d:
+        print item
+        #results
+        k1
+        k2
+        k3
+    
+    for k, v in d.iteritems():
+        print k
+        print v
+        #results
+        k3
+        3
+        k2
+        2
+        k1
+        1
+        
+
+    
+
+
 
 
 
