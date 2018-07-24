@@ -29,6 +29,24 @@ print add_num(2,3)
 #we dont declare variable types in python, e.g var = 'int
 
 #we gona use break, continue and pass 
+#writing a docstring, it is a description of what's going on in a function
+def is_prime(num):
+    """
+    This function checks for prime numbers
+    """
+    for n in range(2, num):
+        if num % n ==0:
+            print "not prime"
+            break
+    else:
+        print "The number is prime"
+is_prime(13)
+#results will be: The number is prime
+#if you put 12 where 13 is. It will print not prime
+
+#using math or modules to check
+
+
 
     
   
