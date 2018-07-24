@@ -18,7 +18,20 @@ def greetings(name):
     greetings ('Diana')
     Hello, Diana #results
 
+  #the return statement, returns a result that can be stored as a variable
+def greetings(name):
+    print "Hello" + name
+def add_num(num1, num2):
+    return num1 + num2
+print add_num(2,3)
+5 #results
+
+#we dont declare variable types in python, e.g var = 'int
+
+#we gona use break, continue and pass 
+
     
+  
 
 
 
