@@ -13,5 +13,13 @@ my_addition_func(1,2)
 3 #results
 
 #docstring
+def greetings(name):
+    print "Hello" + name
+    greetings ('Diana')
+    Hello, Diana #results
+
+    
+
+
 
 
