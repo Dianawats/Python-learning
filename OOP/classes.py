@@ -17,5 +17,6 @@ sam = Dog(breed= 'Lab')
 frank = Dog(breed = 'Huskie', name = 'Sammy')
 #results sam.breed, Lab
 
+
 sam.species #results mammal
 sam.name #sammy
